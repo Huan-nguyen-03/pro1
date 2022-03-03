@@ -90,9 +90,9 @@ int main ()
         renderGame(guessedWord, badGuessCount);
         char guess = readGuess();
         if (contain(secretWord, guess ))
-            guessedWord = update( guessedWord, secretWord, guess);
-        else
-            badGuessCount ++;
+            guessedWord = update( guessedWord, secretWord, guess);       
+        else     
+            badGuessCount ++;       
 
     } while (badGuessCount < 7 && secretWord != guessedWord);
 
