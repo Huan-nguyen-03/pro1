@@ -101,7 +101,7 @@ int main ()
     else cout << "You lost. The correct word is " << secretWord;
 
     
-    return 0;
+    return 0;        
     
 }
 
